@@ -168,6 +168,7 @@ class App extends React.Component {
                         <div style={{flex: 6}}>
                             <input onChange={this.handleChange} className="form-control" id="title" value={this.state.activeItem.title} type="text" name="title" placeholder="You can add task  here" />
                          </div>
+  <h1>DOes it showing in the app</h1>
 
                          <div style={{flex: 1}}>
                             <input id="submit" className="btn btn-warning" type="submit" name="Add" />
